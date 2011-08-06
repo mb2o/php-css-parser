@@ -12,8 +12,7 @@
 
 <h3>Parse CSS file</h3>
 
-<?php
-    debugbreak();			
+<?php			
 	foreach($oCSS->get_css() as $prop => $attrs) {
 		echo "$prop\n<ul>";
 		foreach($attrs as $attr => $value) {
