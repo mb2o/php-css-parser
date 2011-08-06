@@ -1,0 +1,44 @@
+/*
+ This is my CSS file
+*/
+body {
+	font-family: Arial;
+	font-size: 10pt;
+	font-style: normal;
+	color: #ff0000;
+	background-color: #00ff00;
+}
+BODY {
+	padding-left:	2px;
+}
+
+/* class of top added to body element */
+body.top {
+	font-family: Arial;
+	font-size: 10pt;
+	text-decoration: none;
+	}
+.main {
+	font-family: Arial;
+	font-size: 10px;
+	font-style: normal;
+}
+
+td, th {
+	font-family: Arial;font-style: normal;border: 1px solid grey;
+}
+a {
+	font-family: Arial;
+	text-decoration: none; 
+	font-weight:bold;
+} 
+a.navi
+       { font-size: 10pt;
+         font-family: Arial;
+         text-decoration: none;
+         font-weight: bold;
+       }
+a:active {
+		color: red;
+}
+/* End of CSS */

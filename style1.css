@@ -1,0 +1,43 @@
+body {
+	background-color: #00ff00;
+	background-image: url("background2.gif");
+	color: #ff0000;
+	font-family: "Times New Roman";
+	font-size: 10pt;
+	font-style: normal;
+	padding-left: 2px;
+}
+body.top {
+	font-family: Arial;
+	font-size: 10pt;
+	text-decoration: none;
+}
+.main {
+	font-family: Arial;
+	font-size: 10px;
+	font-style: normal;
+}
+td {
+	border: 1px solid grey;
+	font-family: Arial;
+	font-style: normal;
+}
+th {
+	border: 1px solid grey;
+	font-family: Arial;
+	font-style: normal;
+}
+a {
+	font-family: Arial;
+	font-weight: bold;
+	text-decoration: none;
+}
+a.navi {
+	font-family: Arial;
+	font-size: 10pt;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:active {
+	color: red;
+}
