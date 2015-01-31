@@ -93,7 +93,7 @@ class CSS
 		foreach($this->css as $key0 => $value0) {
 			$trimmed = trim($key0);
 			$this->cssstr .= "$trimmed {\n";
-			if($sorted) ksort(&$this->css[$key0], SORT_STRING);
+			if($sorted) ksort($this->css[$key0], SORT_STRING);
 			foreach($this->css[$key0] as $key1 => $value1) {
 				$this->cssstr .= "\t$key1: $value1;\n";
 			}
